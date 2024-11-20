@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+    .gallary{
+        display: flex;
+        flex-wrap: wrap;
+        margin: -5px;
+    }
+    .gallary-item{
+        flex: 1 1 calc(33.333% - 10px);
+        margin: 5px;
+        overflow: hidden;
+    }
+
+    .gallary-item img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
